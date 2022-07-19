@@ -1,24 +1,27 @@
 <html>
     <head>
         <title>PWC Website</title>
+        <link rel="stylesheet" href="style.css">
 
     </head>
 
-    <body style="background-color: white;">
-        <a style="background-color:black; color:white; text-decoration: none;" href="./Home.html">Home</a>
-        <a style="background-color:black; color:white; text-decoration: none" href="./contactus.html">Contact</a>
-        <a style="background-color:black; color:white; text-decoration: none" href="./gallery.html">Gallery</a>
-        <a style="background-color:black; color:white; text-decoration: none" href="./applicationform.html">Application Form</a>
-        <a style="background-color:black; color:white; text-decoration: none" href="./aboutus.html">About Us</a>
+    <body>
+        <a href="./Home.html">Home</a>
+        <a href="./contactus.html">Contact</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./applicationform.html">Application Form</a>
+        <a href="./aboutus.html">About Us</a>
+        <a href="./studentdata.html">Student Data</a>
         
-        <h1>Application Form</h1>
+        <h1><span><img width="40" height="40" src="./images/pwclogo.jpg" alt=""></span>PWC Student Website</h1>
+        <h2>Application Form</h2>
         
         <form>
-            <label for="firstname">First name:</label>
+            <label for="firstname">First Name:</label>
             <input type="text" id="firstname" name="firstname"><br><br>
 
-            <label for="Secondname">Second name:</label>
-            <input type="text" id="Secondname" name="Secondname"> <br><br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname"> <br><br>
             
             <label for="Age">Age:</label>
             <input type="number" id="Age" name="Age"> <br><br>
@@ -82,6 +85,7 @@
             <label for="java"> Java </label><br>
             <input type="checkbox" id="datascience" name="datascience" value="datascience">
             <label for="datascience"> Data Science </label><br><br>
+       
             <input type="submit" value="Submit">            
           </form>
 

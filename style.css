@@ -1,0 +1,16 @@
+body {
+    background-color: #e2e2e2;
+}
+
+h2 {
+    text-align: center;
+    color: yellow;
+}
+
+table, th, td {
+    border: 1px solid green;
+}
+
+a {
+    text-decoration: none;
+}
