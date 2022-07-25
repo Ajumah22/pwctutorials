@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: #e2e2e2;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 10px;
+    text-align: space-between;
+    margin-bottom: 25px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+ul li {
+    padding: 5px;
+    background: #f4f4f4;
+    margin: 5px 0;
+    float: left;
+    justify-content: space-between;
+}
+
+ul li a {
+    color: #000;
+    display: inline;
+    text-decoration: none; 
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+    overflow: auto;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#myForm {
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+#myForm label {
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+}
+  
+#myForm input[type='text'] {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #444;
+}
+
+#state {
+    width: 75%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #444;
+}
+
+#age {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #444;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 0;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}  
+  
+#courses {
+    border: 2px solid #444;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* .bg-dark {
+    background: #333;
+    color: #fff;
+}
+  
+.error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+} */
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
